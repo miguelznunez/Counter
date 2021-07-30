@@ -1,6 +1,4 @@
-body{
-  background-color: #FCFC62;
-}
+body{background-color: #FCFC62;}
 
 .container{
   width: 95%;
@@ -10,6 +8,7 @@ body{
   justify-content: center;
   align-items: center;
 }
+
 .counter{
   display: flex;
   justify-content: center;
@@ -27,10 +26,10 @@ body{
 }
 
 .counter h1{
+  color: #000;
   font-size: 2rem;
 }
 
-#count{
-  font-size: 9rem;
-}
+#count{font-size: 9rem;}
 
+#buttons{display: inline-block;}
