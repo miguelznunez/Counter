@@ -1,6 +1,14 @@
 var count = 0;
 
-function changeCount(number){
+document.querySelector("#increase").addEventListener("click", () => {
+  changeCount(1);
+});
+
+document.querySelector("#decrease").addEventListener("click", () => {
+  changeCount(-1);
+});
+
+changeCount = (number) => {
   count += number;
-  document.getElementById("count").innerHTML = count;
+  document.querySelector("#count").textContent = count;
 }
